@@ -1,0 +1,12 @@
+{
+    "name":"blockchain",
+    "version":"1.0.0",
+    "main":"dist/index.js",
+    "repository": "https://github.com/minho0078/blockchain_.git",
+    "scripts":{
+        "start":"tsc-watch --onSuccess \" node dist/index.js\" "
+    },
+    "devDependencies": {
+        "tsc-watch":"^1.0.22"
+    }
+}
